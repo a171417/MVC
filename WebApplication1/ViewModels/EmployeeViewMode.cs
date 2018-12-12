@@ -10,7 +10,6 @@ namespace WebApplication1.ViewModels
         public string EmployeeName { get; set; }
         public string Salary { get; set; }
         public string SalarGrade { get; set; }
-        public string UserName { get; set; }
-        public string Greeting { get; set; }
+   
     }
 }

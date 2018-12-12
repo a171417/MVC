@@ -158,8 +158,10 @@
     </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeBusinessLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EMCU.cs" />
+    <Compile Include="ViewModels\EmployeeListViewModel.cs" />
     <Compile Include="ViewModels\EmployeeViewMode.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -205,10 +207,10 @@
     <Content Include="Views\Test\YouView.cshtml" />
     <Content Include="Views\Holo\Customer.cshtml" />
     <Content Include="Views\Hole\Index.cshtml" />
+    <Content Include="Views\New1212\GetView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\New1212\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
