@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+    //Employee emp = ViewBag.Employee;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+    <div> 
+        <h1>你好，@Model.UserName</h1> 
+        <h2>员工信息</h2>
+        <p>姓名：@Model.EmployeeName</p>
+        <p>工资：@Model.Salary</p>
+        <p>
+            级别：@Model.SalarGrade
+        </p>
+         
+    </div>
+</body>
+</html>
